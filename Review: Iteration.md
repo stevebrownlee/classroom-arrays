@@ -21,33 +21,7 @@ Up next is going to be learning about JavaScript Objects. Before you go, we woul
 
 Have you ever used online banking, or a service like Mint to track your monthly expenses? They can tell you in a concise report how much you spend on food, fuel, utilities, travel, clothing, and entertainment every month.
 
-Before you get to the challenge, you need to understand one of the lines of code in the starter code provided.
 
-### Array Deconstruction and Split
-
-In the sample code provided, you will see the following code. It uses array deconstruction, and the `.split()` method for strings.
-
-```js
-const  [ vendor,  amount ]  =  expense.split(":")
-```
-
-A brief explanation of `.split()`. Like its name, it splits a string into several smaller strings. You pass it an argument that is the character that splits the strings. Look at the string below. It's one string of names, and each one is separated by a comma. The comma is what you can use to split it into smaller strings.
-
-Juan is the first name. Carlos is the middle name. Rodriguez is the surname. You want to have each of those names stored in their own variable.
-
-```js
-const fullName = [ "Juan,Carlos,Rodriguez" ]
-```
-
-You can use `.split()` to do this with the following code. It both declares each variable, and assigns each a value all in one line of code.
-
-```js
-const [ firstName, middleName, surName ] = fullName.split(",")
-
-console.log(firstName)  // Juan
-console.log(middleName)  // Carlos
-console.log(surName)  // Rodriguez
-```
 
 
 
@@ -64,5 +38,5 @@ console.log(parseFloat(accountBalance))  // Output is 2551.30
 You will need to use the logical OR `||` operator in some of your `if` conditions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzODQxOTQ0XX0=
+eyJoaXN0b3J5IjpbNDE3NzQ3NjI1LDk1Mzg0MTk0NF19
 -->
