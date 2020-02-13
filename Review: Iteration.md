@@ -29,10 +29,11 @@ In the code editor, there is some sample code. It starts with an array filled wi
 * If the vendor contains the sub-string of "Utility" place the expense amount in the `utilities` array.
 * If the vendor contains the sub-string of "Groceries" or the sub-string of "Restaurant" place the expense amount in the `food` array.
 * If the vendor contains the sub-string of "Lyft" or the sub-string of "Uber" place the expense amount in the `travel` array.
-* If the expense amount is greater than 100.00, place the expense amount in the `clothing` array.
+* If the expense amount is greater than 100.00, place the expense amount in the `largePurchases` array.
 
+## Helpful Hints
 
-### Helpful Hints
+### Turning a String into a Number
 
 To convert a string into a number, you can use the following code.
 
@@ -42,8 +43,10 @@ console.log(accountBalance)  // Output is "2551.30"
 console.log(parseFloat(accountBalance))  // Output is 2551.30
 ```
 
+### Logical Operators
+
 You will need to use the logical OR `||` operator in some of your `if` conditions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTE1Mjg3Myw5NTM4NDE5NDRdfQ==
+eyJoaXN0b3J5IjpbLTE2MDEwNjY3NTQsOTUzODQxOTQ0XX0=
 -->
