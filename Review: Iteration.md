@@ -21,7 +21,7 @@ Up next is going to be learning about JavaScript Objects. Before you go, we woul
 
 Have you ever used online banking, or a service like Mint to track your monthly expenses? They can tell you in a concise report how much you spend on food, fuel, utilities, travel, clothing, and entertainment every month.
 
-
+In the code editor, there is some sample code. It starts with an array filled with your monthly expenses. Each string in the array contains a `:` delimited string. On the left side of the colon is the vendor, and on the right is the amount of money you spent. Your job is to correctly cate
 
 
 
@@ -38,5 +38,5 @@ console.log(parseFloat(accountBalance))  // Output is 2551.30
 You will need to use the logical OR `||` operator in some of your `if` conditions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3NzQ3NjI1LDk1Mzg0MTk0NF19
+eyJoaXN0b3J5IjpbNjExMTAxMTQ1LDk1Mzg0MTk0NF19
 -->
