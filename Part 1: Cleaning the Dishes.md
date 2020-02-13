@@ -58,9 +58,9 @@ Your job is to identify the 3 dirty glasses by using the their index in the arra
 
 ```html
 I am cleaning the following glasses:
-- Whiskey glass
 - Water glass
 - Wine glass
+- Whiskey glass
 ```
 
 
@@ -84,5 +84,5 @@ console.log(`I am cleaning the following glasses:
 `)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNDEwMjUyXX0=
+eyJoaXN0b3J5IjpbMjA4MjUwNTM0LDg0MDQxMDI1Ml19
 -->
