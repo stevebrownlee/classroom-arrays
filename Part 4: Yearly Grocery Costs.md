@@ -79,7 +79,7 @@ const averageExpense =
 console.log()
 ```
 
-Your ouput should look like format, with the correct values in it instead of the `xxx` placeholders.
+Your output should look like format, with the correct values in it instead of the `xxx` placeholders.
 
 ```html
 On average, I spend xxx dollars on groceries per month.
@@ -97,5 +97,5 @@ So far this year, I have spent 957 dollars on groceries.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Nzc5NDg1OV19
+eyJoaXN0b3J5IjpbLTE3NTE4NTMwNjUsLTM3Nzc5NDg1OV19
 -->
