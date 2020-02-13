@@ -26,9 +26,10 @@ In the code editor, there is some sample code. It starts with an array filled wi
 * If the vendor contains the sub-string of "Clothing" place the expense amount in the `clothing` array.
 * If the vendor contains the sub-string of "Movie" place the expense amount in the `entertainment` array.
 * If the vendor contains the sub-string of "Fuel" place the expense amount in the `fuel` array.
-* If the vendor contains the sub-string of "Clothing" place the expense amount in the `clothing` array.
-* If the vendor contains the sub-string of "Clothing" place the expense amount in the `clothing` array.
-* If the vendor contains the sub-string of "Clothing" place the expense amount in the `clothing` array.
+* If the vendor contains the sub-string of "Utility" place the expense amount in the `utilities` array.
+* If the vendor contains the sub-string of "Groceries" or the sub-string of "Restaurant" place the expense amount in the `food` array.
+* If the vendor contains the sub-string of "Lyft" or the sub-string of "Uber" place the expense amount in the `travel` array.
+* If the expense amount is greater than 100.00, place the expense amount in the `clothing` array.
 
 
 ### Helpful Hints
@@ -44,5 +45,5 @@ console.log(parseFloat(accountBalance))  // Output is 2551.30
 You will need to use the logical OR `||` operator in some of your `if` conditions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTQ0NTk0Myw5NTM4NDE5NDRdfQ==
+eyJoaXN0b3J5IjpbLTQ2OTE1Mjg3Myw5NTM4NDE5NDRdfQ==
 -->
