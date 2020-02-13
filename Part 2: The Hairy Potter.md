@@ -140,7 +140,7 @@ const clay = [ "Chunk of clay", "Chunk of clay", "Chunk of clay", "Chunk of clay
 const toFireInKiln = []
 
 for () {
-   const mug = "Dried mug"
+   const mug = "coffee mug"
 }
 
 console.log(toFireInKiln)
@@ -149,5 +149,5 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzc5MjM0NzBdfQ==
+eyJoaXN0b3J5IjpbMjk4MDkzMDIwLC0xODc3OTIzNDcwXX0=
 -->
