@@ -1,3 +1,6 @@
+> Break this up into two chapters. Push in next chapter.
+
+
 # Iterating an Array
 
 In the last part, you targeted only specific items in an array. More often, you will need to perform a task on **every item** in an array. To do this, software developers write loops. A loop iterates an array - meaning it looks at every item.
@@ -149,5 +152,6 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4MDkzMDIwLC0xODc3OTIzNDcwXX0=
+eyJoaXN0b3J5IjpbMTA3NzExODExNywyOTgwOTMwMjAsLTE4Nz
+c5MjM0NzBdfQ==
 -->
