@@ -20,13 +20,9 @@ const originals = [ "Original paper 1", "Original paper 2", "Original paper 3"]
 const copies = []  // Blank array that will contain the copies
 ```
 
-## Concise For Loop Syntax
-
-
-
 ## Your First For Loop
 
-In JavaScript, there is a specific kind of loop called a `for..of` loop that is designed specifically to iterate an array. The task we want to perform is to put a copy into the `copies` array for every piece of paper in the `originals` array.
+In JavaScript, there are several ways to iterate through the items in an array.  The specific syntax you will be using is called a `for..of` loop that is designed specifically to iterate an array. You can start with a simple example. You can use a `for..of` loop to output each item in an a
 
 ```js
 for (const paper of originals) {
@@ -136,6 +132,6 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTk0NTM4NiwtMzQyNzU2MDY5LDEwNz
-cxMTgxMTcsMjk4MDkzMDIwLC0xODc3OTIzNDcwXX0=
+eyJoaXN0b3J5IjpbNTY4MjgxMTk3LC0zNDI3NTYwNjksMTA3Nz
+ExODExNywyOTgwOTMwMjAsLTE4Nzc5MjM0NzBdfQ==
 -->
