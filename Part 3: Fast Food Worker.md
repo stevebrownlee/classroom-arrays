@@ -23,7 +23,20 @@ else if (weather === "sunny") {
 Now here is how you can use it inside a `for..of` loop.
 
 ```js
-const babies = [ "puppy", "kitten", "puppy", "puppy", "kitten", "" ]
+const babies = [ "puppy", "kitten", "puppy", "duckling", "puppy", "kitten", "duckling", "kitten" ]
+const grownAnimals = []
+
+for (const baby of babies) {
+	if (baby === "raining") {
+		console.log("Remember your umbrella")
+	}
+	else if (baby === "snowing") {
+		console.log("Remember your jacket and scarf")
+	}
+	else if (baby === "sunny") {
+		console.log("Remember your sunscreen")
+	}
+}
 ```
 
 ## Exercise
@@ -50,5 +63,5 @@ for (const ingredient of rawIngredients) {
 console.log(finishedFood)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTgwNjQ0NCwtMTc1NzM3NjE3Ml19
+eyJoaXN0b3J5IjpbLTg5OTg1NzE1MCwtMTc1NzM3NjE3Ml19
 -->
