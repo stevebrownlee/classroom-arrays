@@ -27,16 +27,19 @@ const babies = [ "puppy", "kitten", "puppy", "duckling", "puppy", "kitten", "duc
 const grownAnimals = []
 
 for (const baby of babies) {
-	if (baby === "raining") {
-		console.log("Remember your umbrella")
+	if (baby === "puppy") {
+		grownAnimals.push("dog")
 	}
-	else if (baby === "snowing") {
-		console.log("Remember your jacket and scarf")
+	else if (baby === "kitten") {
+		grownAnimals.push("cat")
 	}
-	else if (baby === "sunny") {
-		console.log("Remember your sunscreen")
+	else if (baby === "duckling") {
+		grownAnimals.push("duck")
 	}
 }
+
+console.log(grownAnimals)
+// [ "dog", "cat", "dog", "duck", "dog", "cat", "duck", "cat" ]
 ```
 
 ## Exercise
@@ -63,5 +66,6 @@ for (const ingredient of rawIngredients) {
 console.log(finishedFood)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTg1NzE1MCwtMTc1NzM3NjE3Ml19
+eyJoaXN0b3J5IjpbLTE1NDk3ODYxNzgsLTE3NTczNzYxNzJdfQ
+==
 -->
