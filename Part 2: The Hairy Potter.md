@@ -13,16 +13,13 @@ const originals = [ "Original paper", "Original paper", "Original paper"]
 
 The problem software developers run into is that they often don't know how many items are in array. Some code that Bill wrote will build the array. Alice doesn't know how long that array is, but she definitely wants to do something with everything in it.
 
-However, we will start off with this simple example where you have three pieces of paper that need to be copied. The original pieces of paper should not be touched. Therefore, you will end up with a new collection - or array - that will contain the copies.
-
 ```js
-const originals = [ "Original paper 1", "Original paper 2", "Original paper 3"]
-const copies = []  // Blank array that will contain the copies
+const originals = [ "Original paper 1", "Original paper 2", "Original paper 3" ]
 ```
 
 ## Your First For Loop
 
-In JavaScript, there are several ways to iterate through the items in an array.  The specific syntax you will be using is called a `for..of` loop that is designed specifically to iterate an array. You can start with a simple example. You can use a `for..of` loop to output each item in an a
+In JavaScript, there are several ways to iterate through the items in an array.  The specific syntax you will be using is called a `for..of` loop that is designed specifically to iterate an array. You can start with a simple example. You can use a `for..of` loop to output each item in an array to the console.
 
 ```js
 for (const paper of originals) {
@@ -33,8 +30,12 @@ for (const paper of originals) {
 That would generate the following output in the console.
 
 ```html
-
+"Original paper 1"
+"Original paper 2"
+"Original paper 3"
 ```
+
+This will work on any array of items that you have in your code. Here is another example.
 
 ## Ah.. Push It
 
@@ -132,6 +133,6 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MjgxMTk3LC0zNDI3NTYwNjksMTA3Nz
+eyJoaXN0b3J5IjpbNDU2NTMwODUyLC0zNDI3NTYwNjksMTA3Nz
 ExODExNywyOTgwOTMwMjAsLTE4Nzc5MjM0NzBdfQ==
 -->
