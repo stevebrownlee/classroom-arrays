@@ -49,6 +49,17 @@ That would generate the following output in the console.
 "Adelaide"
 ```
 
+## Your Topics of Study
+
+While you learn JavaScript, there are many topics that you will cover.
+
+* Variables
+* Loops
+* Arrays
+* Functions
+* Objects
+* M
+
 ## Ah.. Push It
 
 There is a classic hip hop song from the 1980's that I always think of when I want to add a new value to an array. You have already seen that an array has a `.length` property. Arrays also have a method on then named `.push()`. That method lets you add a new value as the last item in the array.
@@ -145,6 +156,6 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzc3NzU2OSwtMzQyNzU2MDY5LDEwNz
-cxMTgxMTcsMjk4MDkzMDIwLC0xODc3OTIzNDcwXX0=
+eyJoaXN0b3J5IjpbNzUyOTA2NTgxLC0zNDI3NTYwNjksMTA3Nz
+ExODExNywyOTgwOTMwMjAsLTE4Nzc5MjM0NzBdfQ==
 -->
