@@ -24,39 +24,13 @@ const copies = []  // Blank array that will contain the copies
 
 The task we want to perform is to put a copy into the `copies` array for every piece of paper in the `originals` array.
 
-The first step is to determine how many piece of paper are in the `originals` array. JavaScript provides you a property on any array you create named `length`. To access a property of something in JavaScript, you use a period - developers call it a "dot" - and then the name of the property.
-
 ```js
-// Length property of originals array
-const numberOfPapers = originals.length
-```
-
-Since there are three items in the originals array, JavaScript turns that code above into the following code.
-
-```js
-// Length property of originals array
-const numberOfPapers = 3
-```
-
-Ok, now that you have the number of times you need to perform the task of making copies, you can write a `for` loop. The syntax is daunting when you first see it, but after enough practice, it will become automatic. In later chapters, you will also learn more concise syntax.
-
-```js
-for (let currentIndex = 0; currentIndex < numberOfPapers; currentIndex++) {
-	console.log(originals[currentIndex])
+for (const paper of originals) {
+	console.log(paper)
 }
 ```
 
-The first part of the for loop is the initalizer: `let currentIndex = 0`
-
-This is where you specify which index you want to look at first. Remember in the last chapter that the index is the position of a certain value in an array. Array indexing starts with 0. So in the for loop, we are letting JavaScript know the we want to start with the very first item in the array.
-
-The second part is the evaluation section: `currentIndex < numberOfPapers`
-
-If the condition in this section evaluates to true, all of the code inside the curly braces `{ }` will execute. When this condition is first evaluated, JavaScript sees the following condition: `0 < 3`. Is 0 less than 3? Of course, so it evaluates to `true` and the code executes.
-
-The third part is the incrementor: `currentIndex++`
-
-After the code inside the curly braces executes, the code you write here will execute. It's where you can specify what to do with your initialized variable. In this case, you are incrementing its value by 1.  The `++` operator after a variable with a numeric value will add 1 to its current value.
+That would generate the following output in the console.
 
 ## Ah.. Push It
 
@@ -152,6 +126,6 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzExODExNywyOTgwOTMwMjAsLTE4Nz
-c5MjM0NzBdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjc0MTMxNDQsMTA3NzExODExNywyOT
+gwOTMwMjAsLTE4Nzc5MjM0NzBdfQ==
 -->
