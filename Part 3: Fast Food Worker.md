@@ -34,14 +34,16 @@ Don't be shy about looking at the code in your last exercise to help out with th
 const rawIngredients = [ "beef patty", "egg", "potato", "egg", "potato", "beef patty", "beef patty", "potato" ]
 const finishedFood = []
 
-for () {
+for (const ingredient of rawIngredients) {
 	/* 
 		Write your if/else code here. In each block use .push() to insert
 		the correct item into the finishedFood array.
 	*/
-	
 }
+
+console.log(finishedFood)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTczNzYxNzJdfQ==
+eyJoaXN0b3J5IjpbLTE0OTM4ODkyMTEsLTE3NTczNzYxNzJdfQ
+==
 -->
