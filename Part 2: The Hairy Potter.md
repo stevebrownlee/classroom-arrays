@@ -32,9 +32,15 @@ for (const paper of originals) {
 
 That would generate the following output in the console.
 
+```html
+
+```
+
 ## Ah.. Push It
 
 There is a classic hip hop song from the 1980's that I always think of when I want to add a new value to an array. You have already seen that an array has a `.length` property. Arrays also have a method on then named `.push()`. That method lets you add a new value as the last item in the array.
+
+However, we will start off with this simple example where you have three pieces of paper that need to be copied. The original pieces of paper should not be touched. Therefore, you will end up with a new collection - or array - that will contain the copies.
 
 Here's how you can add a new piece of paper to the collection that needs to be copies.
 
@@ -126,6 +132,6 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc0MTMxNDQsMTA3NzExODExNywyOT
-gwOTMwMjAsLTE4Nzc5MjM0NzBdfQ==
+eyJoaXN0b3J5IjpbLTM0Mjc1NjA2OSwxMDc3MTE4MTE3LDI5OD
+A5MzAyMCwtMTg3NzkyMzQ3MF19
 -->
