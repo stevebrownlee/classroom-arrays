@@ -25,6 +25,7 @@ Average rainfall was </span><span class="token interpolation"><span class="token
 <p>Put that code into the code editor and run it to see the output.</p>
 <h2 id="exercise-grocery-shopper">Exercise: Grocery Shopper</h2>
 <p>In this exercise, you will write code to calculate your average monthly grocery expenses. So far, you have collected five months’ worth of expenses.</p>
+<p><strong>Copy the following code into the code editor</strong></p>
 <pre class=" language-js"><code class="prism  language-js"><span class="token keyword">const</span> monthlyExpenses <span class="token operator">=</span> <span class="token punctuation">[</span> <span class="token number">201.43</span><span class="token punctuation">,</span> <span class="token number">189.22</span><span class="token punctuation">,</span> <span class="token number">132.09</span><span class="token punctuation">,</span>  <span class="token number">238.85</span><span class="token punctuation">,</span> <span class="token number">195.41</span> <span class="token punctuation">]</span>
 <span class="token keyword">let</span> totalExpense <span class="token operator">=</span> <span class="token number">0</span>
 
