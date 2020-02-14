@@ -8,14 +8,10 @@ In the last part, you targeted only specific items in an array. More often, you 
 Here's a simple array of three pieces of paper.
 
 ```js
-const originals = [ "Original paper", "Original paper", "Original paper"]
+const originals = [ "Original paper 1", "Original paper 2", "Original paper 3"]
 ```
 
 The problem software developers run into is that they often don't know how many items are in array. Some code that Bill wrote will build the array. Alice doesn't know how long that array is, but she definitely wants to do something with everything in it.
-
-```js
-const originals = [ "Original paper 1", "Original paper 2", "Original paper 3" ]
-```
 
 ## Your First For Loop
 
@@ -133,6 +129,6 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2NTMwODUyLC0zNDI3NTYwNjksMTA3Nz
+eyJoaXN0b3J5IjpbMzQwMDA0ODkyLC0zNDI3NTYwNjksMTA3Nz
 ExODExNywyOTgwOTMwMjAsLTE4Nzc5MjM0NzBdfQ==
 -->
