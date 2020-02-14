@@ -33,6 +33,22 @@ That would generate the following output in the console.
 
 This will work on any array of items that you have in your code. Here is another example.
 
+```js
+const teammates = [ "Susan", "Emory", "Seamus", "Adelaide" ]
+for (const name of teammates) {
+	console.log(name)
+}
+```
+
+That would generate the following output in the console.
+
+```html
+"Susan"
+"Emory"
+"Seamus"
+"Adelaide"
+```
+
 ## Ah.. Push It
 
 There is a classic hip hop song from the 1980's that I always think of when I want to add a new value to an array. You have already seen that an array has a `.length` property. Arrays also have a method on then named `.push()`. That method lets you add a new value as the last item in the array.
@@ -129,6 +145,6 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwMDA0ODkyLC0zNDI3NTYwNjksMTA3Nz
-ExODExNywyOTgwOTMwMjAsLTE4Nzc5MjM0NzBdfQ==
+eyJoaXN0b3J5IjpbLTMxMzc3NzU2OSwtMzQyNzU2MDY5LDEwNz
+cxMTgxMTcsMjk4MDkzMDIwLC0xODc3OTIzNDcwXX0=
 -->
