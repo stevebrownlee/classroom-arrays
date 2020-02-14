@@ -63,6 +63,11 @@ While you learn JavaScript, there are many topics that you will cover.
 
 Copy the code below into the editor. Then you need to take those topics above and put them in the `topics` array. Then, using the examples above, write a `for..of` loop that outputs them to the console.
 
+
+
+
+
+### 
 ```js
 const topics = [  ]
 
@@ -74,6 +79,6 @@ for () {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Nzk1MDk1MiwtMzQyNzU2MDY5LDEwNz
-cxMTgxMTcsMjk4MDkzMDIwLC0xODc3OTIzNDcwXX0=
+eyJoaXN0b3J5IjpbLTE2NDkwNTQ5OTEsLTM0Mjc1NjA2OSwxMD
+c3MTE4MTE3LDI5ODA5MzAyMCwtMTg3NzkyMzQ3MF19
 -->
