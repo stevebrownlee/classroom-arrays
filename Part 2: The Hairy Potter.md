@@ -1,7 +1,7 @@
 > Break this up into two chapters. Push in next chapter.
 
 
-# Iterating an Array
+## Iterating an Array
 
 In the last part, you targeted only specific items in an array. More often, you will need to perform a task on **every item** in an array. To do this, software developers write loops. A loop iterates an array - meaning it looks at every item.
 
@@ -67,7 +67,8 @@ Copy the code below into the editor. Then you need to take those topics above an
 
 
 
-### 
+### Starter code to provide 
+
 ```js
 const topics = [  ]
 
@@ -79,6 +80,6 @@ for () {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkwNTQ5OTEsLTM0Mjc1NjA2OSwxMD
-c3MTE4MTE3LDI5ODA5MzAyMCwtMTg3NzkyMzQ3MF19
+eyJoaXN0b3J5IjpbMTI4ODkyOTI5OCwtMzQyNzU2MDY5LDEwNz
+cxMTgxMTcsMjk4MDkzMDIwLC0xODc3OTIzNDcwXX0=
 -->
