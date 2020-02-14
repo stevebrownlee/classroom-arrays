@@ -20,6 +20,12 @@ else if (weather === "sunny") {
 }
 ```
 
+Now here is how you can use it inside a `for..of` loop.
+
+```js
+const 
+```
+
 ## Exercise
 
 There is some beginning code in the code editor. You need to complete it. You need to fill in the proper sections of the `for` loop to iterate the `rawIngredients` array. 
@@ -44,6 +50,5 @@ for (const ingredient of rawIngredients) {
 console.log(finishedFood)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM4ODkyMTEsLTE3NTczNzYxNzJdfQ
-==
+eyJoaXN0b3J5IjpbOTcxOTk0OTAzLC0xNzU3Mzc2MTcyXX0=
 -->
