@@ -58,7 +58,18 @@ While you learn JavaScript, there are many topics that you will cover.
 * Arrays
 * Functions
 * Objects
-* M
+* Modules
+* Events
+
+Copy the code below into the editor. Then you need to take those topics above and put them in the `topics` array. Then, using the examples above, write a 
+
+```js
+const topics = [  ]
+
+for () {
+
+}
+```
 
 ## Ah.. Push It
 
@@ -156,6 +167,6 @@ console.log(toFireInKiln)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyOTA2NTgxLC0zNDI3NTYwNjksMTA3Nz
+eyJoaXN0b3J5IjpbMjM2OTM3NTkwLC0zNDI3NTYwNjksMTA3Nz
 ExODExNywyOTgwOTMwMjAsLTE4Nzc5MjM0NzBdfQ==
 -->
