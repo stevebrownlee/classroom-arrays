@@ -62,3 +62,6 @@ I am cleaning the following glasses:
 - Wine glass
 - Whiskey glass
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTM3MjUxMDUxMF19
+-->
