@@ -21,71 +21,47 @@ const myFavoriteColors = [ "red", "violet", "pink", "green", "white", "orange" ]
 
 The myFavoriteColors variable still has a single value, but it is more abstract. Its value is a collection of strings, or more specifically, an array of strings.
 
-  
-
 The placement of each number in that array is called its "index". The indexing of an array starts at zero, not one. That is, the item at index 0 of the above array is the string value "red".
 
-  
-
--   The item at index 0 is the string "red"
-    
+-   The item at index 0 is the string "red"    
 -   The item at index 1 is the string "violet"
-    
 -   The item at index 2 is the string "pink"
-    
 -   The item at index 3 is the string "green"
-    
 -   The item at index 4 is the string "white"
-    
 -   The item at index 5 is the string "orange"
-    
-
-  
 
 You can, if you need to, look at the item at a specific index by using the following syntax.
 
-  
-
+```js
 arrayVariable[index number]
-
-  
+```
 
 So if you want to console.log() the color "white", you would write the following code.
 
-  
-
+```js
 const whiteColor = myFavoriteColors[4]
 console.log(whiteColor)
-
-  
+```
 
 If you want to console.log() the color "violet", you would write the following code.
 
-  
-
+```js
 const violetColor = myFavoriteColors[1]
 console.log(violetColor)
-
+```
   
-
-## 
-
-Exercise: Glass Scrubber
-
-  
+## Exercise: Glass Scrubber
 
 You work in a fancy restaurant. You are in your first month, and everyone they hire starts in the kitchen as a dish cleaner. Your job, specifically, is to scrub the glasses clean. Over in the code editor, you will find an array of dirty dishes. This represents the large sink in the back of the restaurant where the waiter place all of the dirty dishes.
 
-  
-
 Your job is to identify the 3 dirty glasses by using the their index in the array and assign them to a corresponding variable. When you run the code, it should display the following.
 
-  
-
+```html
 I am cleaning the following glasses:
 - Water glass
 - Wine glass
 - Whiskey glass
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTA1NjI0NCwtMTgzMTk2MzU5MF19
+eyJoaXN0b3J5IjpbLTM3MjUxMDUxMCwtMTgzMTk2MzU5MF19
 -->
